@@ -14,3 +14,15 @@ console.log(renaultKwid);
 const hyundaiSantro = new Car(4, 'T5', 'red');
 
 console.log(hyundaiSantro);
+
+// Constructor pattern helps to extend the class pattern
+class SUV extends Car {
+    constructor(doors,engine,color){
+        super(doors, engine, color);
+        this.wheels = 4;
+    }
+}
+
+const mahindraSUV = new SUV(4, 'v8', 'white');
+
+console.log(mahindraSUV);
