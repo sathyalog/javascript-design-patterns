@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Decorator Pattern</title>
+</head>
+<body>
+        The decorator pattern (also known as Wrapper, an alternative naming shared with the Adapter pattern) is a design pattern that allows the behavior to be added to an individual object, either statically or dynamically, without affecting the behavior of other objects from the same class.
+        The Decorator pattern adds new behavior to objects dynamically at runtime wrapping itself around the original object. Multiple decorators can add or override functionality to the original object.
+        Please see the code to understand in more detail.
+        Here, the decorators are overriding the superclass .cost() method to return the current price of the MacBook plus with the cost of the upgrade being specified. It's considered a decoration as the original Macbook object's constructor methods which are not overridden (e.g. screenSize()) as well as any other properties which we may define as a part of the Macbook remain unchanged and intact.
+    <script src="decorator-pattern.js"></script>
+</body>
+</html>
