@@ -16,6 +16,8 @@ ___Factory Vs Abstract Factory___
 * Factory Pattern takes care of creating objects from the same family. Abstract Factory Pattern, as mentioned, will provide a constructor for creating families of related objects, without specifying concrete classes or constructors. 
 
 > Structural Patterns
+1. Module Pattern - Very commonly used pattern across frameworks like react, angular etc. Importing/exporting components comes under this pattern.
+2. Mixin Pattern - Mixin Pattern is a great way to mix functions and instances of a class after they have been created. In other words, you could use Mixins to add interesting functions to the car class we created.
 
 > Behavioral Patterns
 
